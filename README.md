@@ -1,1 +1,1 @@
-# business_model
+# article_helper
