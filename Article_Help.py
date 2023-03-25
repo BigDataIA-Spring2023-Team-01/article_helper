@@ -1,3 +1,4 @@
+from io import StringIO
 import streamlit as st
 import os
 import openai
@@ -47,10 +48,22 @@ def translate(input, target_language):
 
 with col1:
     st.header("Scribble Spot: ")
-    input = st.text_area("Enter your article here",key='input')
-    submitted = st.button('Submit',key='submit')
-    if submitted:
-        st.success("Article Submitted Successfully")
+    todo = st.radio(
+    "What do you want to do",
+    ('Upload File', 'Paste Article'))
+    if todo == 'Paste Article':
+
+        input = st.text_area("Enter your article here",key='input')
+        submitted = st.button('Submit',key='submit')
+        if submitted:
+            st.success("Article Submitted Successfully")
+    if todo == 'Upload File':
+        fileinput = st.file_uploader("Choose a file")
+        if fileinput:
+            stringio = StringIO(fileinput.getvalue().decode("utf-8"))
+            input = stringio.read()
+            
+        
 
 with col2:
     grammar_checked = st.button('Grammar Check',key='grammar_check')
