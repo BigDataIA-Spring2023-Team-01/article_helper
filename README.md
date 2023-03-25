@@ -5,3 +5,6 @@ Hosted on - https://bigdataia-spring2023-team-01-article-helper-article-help-df9
 Documentation - https://docs.google.com/document/d/1UmJgJIRYMXh7TofFwqsZIgk7sS_ahxrd9CV3Jx4Cj34/edit#heading=h.3pdxbjk3xb5m
 
 
+Home website : 
+
+![Screenshot (49)](https://user-images.githubusercontent.com/32273709/227668170-08258a13-0c07-444f-bddc-46a552fc0093.png)
