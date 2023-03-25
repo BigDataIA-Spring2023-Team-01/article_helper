@@ -10,7 +10,7 @@ openai.api_key = os.environ.get("OPENAI_SECRET_KEY")
 def generate_article(input):
     response = openai.Completion.create(
         model="text-davinci-002",
-        prompt="Summarize the following article"+ input,
+        prompt="Generate a 1 page article on the following idea: "+ input,
         temperature=0.5,
         max_tokens=530,
         top_p=1,
