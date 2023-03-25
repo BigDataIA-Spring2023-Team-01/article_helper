@@ -6,5 +6,5 @@ Documentation - https://docs.google.com/document/d/1UmJgJIRYMXh7TofFwqsZIgk7sS_a
 
 
 Home website : 
+![Screenshot (52)](https://user-images.githubusercontent.com/32273709/227668355-523ce738-713e-4b3b-9649-d84e7b6c98e2.png)
 
-![Screenshot (49)](https://user-images.githubusercontent.com/32273709/227668170-08258a13-0c07-444f-bddc-46a552fc0093.png)
